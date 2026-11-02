@@ -145,7 +145,7 @@ Investigate VoIP security by analyzing SIP call setup signaling and reconstructi
 
 ## Author
 
-**Furat Omar**
+**Furat Omer**
 
 *This repository reflects my ongoing learning journey and practical development in cybersecurity and network traffic analysis.*
 
