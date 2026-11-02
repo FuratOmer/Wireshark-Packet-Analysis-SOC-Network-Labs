@@ -11,7 +11,7 @@ This repository documents my hands-on investigative labs completed during my cyb
 ### 📌 Scenario & Objective
 Analyze a raw network traffic capture to identify malicious scanning activity, isolate threat signatures, and map attacker-victim behaviors.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Loaded the raw PCAP file into Wireshark to begin analyzing the network session.
 2. **Show only SYN packets:** Filtered the traffic to display only TCP SYN packets:
@@ -37,7 +37,7 @@ Analyze a raw network traffic capture to identify malicious scanning activity, i
 ### 📌 Scenario & Objective
 Deconstruct transport layer sessions by reassembling TCP conversations to read full session content and payload data.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Opened the target PCAP file containing conversational data streams.
 2. **Find the chat port:** Identified the application/service port used for the messaging session.
@@ -57,7 +57,7 @@ Deconstruct transport layer sessions by reassembling TCP conversations to read f
 ### 📌 Scenario & Objective
 Advanced TCP stream tracking: locating hidden files, analyzing backup server interactions, and inspecting HTTP response codes.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Loaded the second part of the TCP stream capture into Wireshark.
 2. **Find the pages:** Inspected web requests or directory listings retrieved during the session.
@@ -77,7 +77,7 @@ Advanced TCP stream tracking: locating hidden files, analyzing backup server int
 ### 📌 Scenario & Objective
 Inspect unencrypted HTTP traffic to locate login pages, extract plaintext credentials, and evaluate remediation steps.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Loaded the web traffic capture containing cleartext protocol exchanges.
 2. **Which protocol?** Identified **HTTP** as the unencrypted protocol used for transmission (`http`).
@@ -97,7 +97,7 @@ Inspect unencrypted HTTP traffic to locate login pages, extract plaintext creden
 ### 📌 Scenario & Objective
 Track repetitive authentication failures, analyze error response codes, and detect brute-force attack patterns in network captures.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Opened the security event capture file containing authentication traffic.
 2. **The protocol:** Identified the application-layer protocol targeted by the brute-force attempts.
@@ -117,7 +117,7 @@ Track repetitive authentication failures, analyze error response codes, and dete
 ### 📌 Scenario & Objective
 Investigate VoIP security by analyzing SIP call setup signaling and reconstructing RTP media streams.
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. **Capture the traffic:** Loaded the telephony and VoIP traffic capture into Wireshark.
 2. **Call setup protocol:** Identified **SIP** (Session Initiation Protocol) as the signaling protocol (`sip`).
@@ -143,7 +143,7 @@ Investigate VoIP security by analyzing SIP call setup signaling and reconstructi
 
 ---
 
-## 👤 Author
+## Author
 
 **Furat Omar**
 
